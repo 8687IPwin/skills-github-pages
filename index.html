@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>你的名字 - 平面设计师作品集</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>你的名字</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">关于我</a></li>
+                    <li><a href="#portfolio">作品集</a></li>
+                    <li><a href="#contact">联系我</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="container">
+            <div class="hero-content">
+                <h2>你好，我是你的名字</h2>
+                <p>一位充满创意和热情的平面设计师，致力于通过视觉设计解决问题并创造价值。</p>
+                <a href="#portfolio" class="button">查看我的作品</a>
+            </div>
+        </section>
+
+        <section id="about" class="container">
+            <h2>关于我</h2>
+            <p>在这里简单介绍一下你自己，你的设计理念、技能、经验等等。可以包括你擅长的领域，例如品牌设计、UI/UX设计、插画等等。</p>
+            <p>例如：我拥有X年的平面设计经验，擅长使用Adobe Photoshop、Illustrator和InDesign等软件。我热衷于创造独特且引人注目的视觉体验，并与客户紧密合作，将他们的想法转化为现实。</p>
+            </section>
+
+        <section id="portfolio" class="container">
+            <h2>作品集</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="images/project1.jpg" alt="项目1">
+                    <div class="overlay">
+                        <h3>项目名称 1</h3>
+                        <p>项目简短描述</p>
+                        <a href="images/project1_large.jpg" target="_blank">查看详情</a>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/project2.jpg" alt="项目2">
+                    <div class="overlay">
+                        <h3>项目名称 2</h3>
+                        <p>项目简短描述</p>
+                        <a href="images/project2_large.jpg" target="_blank">查看详情</a>
+                    </div>
+                </div>
+                </div>
+        </section>
+
+        <section id="contact" class="container">
+            <h2>联系我</h2>
+            <p>如果你有任何合作机会或想进一步了解我的作品，请随时与我联系。</p>
+            <form action="#" method="POST"> <div class="form-group">
+                    <label for="name">姓名:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">邮箱:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">留言:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="button">发送消息</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 你的名字. 保留所有权利。</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script> </body>
+</html>
